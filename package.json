@@ -6,7 +6,7 @@
   "scripts": {
     "start": "json-server --watch ./src/data/database.json",
     "start-auth": "node src/server.js",
-    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand --watchAll",
+    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand"
 
   },
